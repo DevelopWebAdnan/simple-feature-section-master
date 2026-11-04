@@ -33,8 +33,81 @@
         box-sizing: border-box;
       }
 
+      /* shared styles */
+      .title {
+        color: #E5E7EB;
+      }
+      .description {
+        margin-top: 16px;
+      }
+
       body {
         height: 100vh;
+        font-size: 1rem;
+      }
+
+      main section {
+        border: 4px dashed darkgoldenrod;
+      }
+      .feature-content {
+        border: 3px dashed darkcyan;
+        background-image: url('../resources/Background_image.svg');
+        background-color: #121826;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 40px;
+      }
+      .text-content {
+        border: 2px dashed saddlebrown;
+        text-align: center;
+        margin: 0px auto 40px;
+        max-width: 400px;
+      }
+      .text-content .title {
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+      .text-content .description {
+        color: #9DA3AE;
+      }
+      .cards-container {
+        border: 2px dashed seagreen;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+       .emoji-1 {
+        background-color: #FCEED8;
+      }
+      .emoji-2 {
+        background-color: #DEE9FC;
+      }
+      .emoji-3 {
+        background-color: #FBE5E6;
+      }
+      .emoji-1, .emoji-2, .emoji-3 {
+        padding: 10px;
+        border-radius: 50%;
+      }
+      .card {
+        background-color: #212936;
+        border-radius: 10px;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+        width: 315px;
+        padding: 24px;
+      }
+      .card .title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 24px 0 16px;
+      }
+      .card .description {
+        color: #D2D5DA;
+        margin: 16px 0;
+      }
+      .card-image {
+        border-radius: 10px;
       }
 
       .author-info {
@@ -46,6 +119,11 @@
 
       .author-info a {
         text-decoration: none;
+      }
+
+      /* responsive styles */
+      @media screen and (max-width: 1024px){
+        
       }
     </style>
   </head>
@@ -62,22 +140,28 @@
           </div>
           <div class="cards-container">
             <div class="card">
-              <img src="" alt="" class="emoji">
-              ✋
+              <span class="emoji-1">
+                <!-- <img src="" alt=""> -->
+                ✋
+              </span>
               <h2 class="title">Collect Feedback at Multiple Touchpoints</h2>
               <p class="description">Provide a comprehensive understanding of the customer experience.</p>
               <img src="resources/photo_2.png" alt="photo_2" class="card-image" width="267" height="193">
             </div>
             <div class="card">
-              <img src="" alt="" class="emoji">
-                   🥅
+              <span class="emoji-2">
+                <!-- <img src="" alt=""> -->
+                🥅
+              </span>
               <h2 class="title">Ask Targeted and Specific Questions</h2>
               <p class="description">Avoid vague or open-ended questions that may not yield actionable insights.</p>
               <img src="resources/photo_1.png" alt="photo_1" class="card-image" width="267" height="193">
             </div>
             <div class="card">
-              <img src="" alt="" class="emoji">
-                   💬
+              <span class="emoji-3">
+                <!-- <img src="" alt=""> -->
+                💬
+              </span>
               <h2 class="title">Prioritize and Respond to Feedback</h2>
               <p class="description">Communicate the changes or improvements you've made in response to their feedback.</p>
               <img src="resources/photo_3.png" alt="photo_3" class="card-image" width="267" height="193">
