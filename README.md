@@ -50,7 +50,7 @@ I have learned that we can build a responsive 3-column layout only with flex, wi
 
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 I used to think that it is easier to build a responsive 3-column layout with grid, rather than with flex. But while working through this project, one of my major learnings (while fulfilling the requirement of making responsive cards in a 3-column layout where the cards should collapse on smaller screens) is that, we can build the layout of the responsive cards very easily with flex.
-- After building a 3-column layout, it was then time to make the layout of the cards responsive. So, I used the CSS style rule flex-wrap: wrap; which did the trick. Believe it or not, I did not use any media queries to make the layout of the cards responsive, not even nested flexbox. 
+- After building a 3-column layout, it was the time to make the layout of the cards responsive. So, I used the CSS style rule flex-wrap: wrap; which did the trick. Believe it or not, I did not use any style rule in the media query part of my code, to make the layout of the cards responsive, not even nested flexbox. 
 ### Useful resources
 
 <!--
