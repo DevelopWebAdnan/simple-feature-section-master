@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://i.ibb.co.com/1G58tdDT/screencapture-developwebadnan-github-io-2026-11-05-18-58-27.png)
+![screenshot](https://i.ibb.co.com/qL0wgk1P/screencapture-developwebadnan-github-io-2026-11-06-22-33-59.png)
 
 <!--
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
